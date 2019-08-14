@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+    <name>vdgmage_chromeloginfix</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/BSD-3-Clause">BSD license</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension fixes an issue with logging in on the backend using Google Chrome.</summary>
+    <description>This extension overwrites some session settings if the request browser in the backend is Google Chrome.&#xD;
+&#xD;
+There are also some more settings to give you extended control over the session settings that blocks you from logging in with Google Chrome.</description>
+    <notes>- Support for session HTTP&#xD;
+- Support for session secure&#xD;
+- Support for session domain&#xD;
+- Support for session lifetime&#xD;
+- Ability to disable the whole module&#xD;
+- Ability to only enable if the request browser is Google Chrome</notes>
+    <authors><author><name>Daniel van der Garde</name><user>DaanVDG</user><email>daniel@vdgmage.com</email></author></authors>
+    <date>2014-11-21</date>
+    <time>12:24:08</time>
+    <contents><target name="magecommunity"><dir name="VDGMage"><dir name="ChromeLoginFix"><dir name="Helper"><file name="data.php" hash="a0955322e2c9a068a9d8bf93589d675e"/></dir><dir name="Model"><file name="Cookie.php" hash="0e8c20c128400fe20ba8a45544723708"/></dir><dir name="etc"><file name="config.xml" hash="7950a8073c4e7b65bf9bcc6cb2208699"/><file name="system.xml" hash="7f683297f83b50001af398da30548547"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="VDGMage_ChromeLoginFix.xml" hash="de9efcd522abc873e790f40adae27ee9"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

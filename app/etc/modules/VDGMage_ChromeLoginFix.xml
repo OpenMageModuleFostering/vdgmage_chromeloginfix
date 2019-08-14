@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VDGMage_ChromeLoginFix>
+            <active>true</active>
+            <codePool>community</codePool>
+        </VDGMage_ChromeLoginFix>
+    </modules>
+</config>

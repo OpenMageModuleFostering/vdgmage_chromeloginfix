@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <vdgmage translate="label" module="vdgmage_chromeloginfix">
+            <label>VDG Mage</label>
+            <sort_order>100</sort_order>
+        </vdgmage>
+    </tabs>
+    <sections>
+        <chromeloginfix translate="label" module="vdgmage_chromeloginfix">
+            <label>ChromeLoginFix</label>
+            <tab>vdgmage</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups>
+                <chromeloginfix_general translate="label" module="vdgmage_chromeloginfix">
+                    <comment><![CDATA[
+                    <div class="box">
+                        <p>
+                             <b>ChromeLoginFix v1.0 | provided by <a href="http://www.vdgmage.com">VDG Mage | Magento modules</a></b>
+                        </p>
+                        For documentation and support visit <a href="http://vdgmage.zendesk.com">vdgmage.zendesk.com</a>  or contact: <a href="mailto:support@vdgmage.zendesk.com">support@vdgmage.zendesk.com</a>
+                    </div>
+                    ]]></comment>
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+                        <chromeloginfix_enable translate="label">
+                            <label>Enable ChromeLoginFix</label>
+                            <comment>Completely enable or disable ChromeLoginFix</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </chromeloginfix_enable>
+                        <chromeloginfix_enable_http translate="label">
+                            <label>Enable 'HTTP' fix</label>
+                            <comment>This wil probably already solve your problem</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </chromeloginfix_enable_http>
+                        <chromeloginfix_enable_secure translate="label">
+                            <label>Enable 'secure' fix</label>
+                            <comment>Enable if you have HTTPS</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </chromeloginfix_enable_secure>
+                        <chromeloginfix_enable_domain translate="label">
+                            <label>Enable 'domain' fix</label>
+                            <comment>Enable if you are not working on localhost</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </chromeloginfix_enable_domain>
+                        <chromeloginfix_enable_lifetime translate="label">
+                            <label>Enable 'lifetime' fix</label>
+                            <comment>Enable this when you customers can't add products to there carts</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </chromeloginfix_enable_lifetime>
+                        <chromeloginfix_enable_chrome_only translate="label">
+                            <label>Only for Chrome</label>
+                            <comment>Enable this to apply the selected fixes only on Chrome browsers</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </chromeloginfix_enable_chrome_only>
+                    </fields>
+                </chromeloginfix_general>
+                <chromeloginfix_other translate="label" module="vdgmage_chromeloginfix">
+                    <comment><![CDATA[
+                    <div class="box">
+                        <p>
+                            I'm getting married April 17th 2015, so if you can't thank me enough, feel this module is way more worth or you are just feeling generous, feel free to support me for my big day!
+                        </p>
+                        <img border="0" src="http://tickers.TickerFactory.com/ezt/d/4;10773;484/st/20150417/e/Our+Wedding/dt/6/k/12ed/event.png" />
+                        <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CD8WLZE5ZVWL6&lc=US&item_name=Marriage%20April%2017%2c%202015&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted">
+                            <img alt="PayPal - The safer, easier way to pay online!" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" style="margin-bottom: 30px; margin-left: 30px;">
+                        </a>
+                    </div>
+                    ]]></comment>
+                    <label>Other</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </chromeloginfix_other>
+            </groups>
+        </chromeloginfix>
+    </sections>
+</config>
