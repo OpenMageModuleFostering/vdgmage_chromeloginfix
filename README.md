@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This extension fixes an issue with logging in on the backend using Google Chrome.
