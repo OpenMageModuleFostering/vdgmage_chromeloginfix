@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/vdgmage_chromeloginfix",
+    "name": "OpenMageModuleFostering\/vdgmage_chromeloginfix",
     "type": "magento-module",
     "license": "BSD-license",
     "homepage": "",
     "description": "This extension fixes an issue with logging in on the backend using Google Chrome.",
     "authors": [
-    {
-        "name": "Daniel van der Garde",
-        "email": "daniel@vdgmage.com"
-    }
-],
+        {
+            "name": "Daniel van der Garde",
+            "email": "daniel@vdgmage.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
